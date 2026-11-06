@@ -7,22 +7,22 @@ class Rex8s < Formula
   on_macos do
     on_arm do
       url "https://github.com/vitalbh/rex8s/releases/download/v0.1.1/rex8s_darwin_arm64.tar.gz"
-      sha256 "2c59b9cfec3afe79f606416e7358720290bbac435b52263fff15849898333ece"
+      sha256 "c4f176894c820979921ee8decee381b12a7306c56cfe8a7174b9d5ea823a7c04"
     end
     on_intel do
       url "https://github.com/vitalbh/rex8s/releases/download/v0.1.1/rex8s_darwin_amd64.tar.gz"
-      sha256 "3c958ab3838f399a90382c7810bcaf85f8fa43607fb4f7266a1f3966b40d635a"
+      sha256 "6500b7a34be6b7dcfc93892fce2e836c4d847c9b1f2177d23f31b8ba3595a8f5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/vitalbh/rex8s/releases/download/v0.1.1/rex8s_linux_arm64.tar.gz"
-      sha256 "4c801850d38dcc6533066fab95e023b628acb5b80eb71fafb6a77b30e84e402e"
+      sha256 "61ef265f3a8d48f4009e7d971ef7327258bef31775bb8696e980d143c6d947de"
     end
     on_intel do
       url "https://github.com/vitalbh/rex8s/releases/download/v0.1.1/rex8s_linux_amd64.tar.gz"
-      sha256 "31cf12b30f1020d580b2097411e761a8a17064659a8a9671016b3120b79d1233"
+      sha256 "acd4b72c1d18ee96c6660067db097b7fda7645a477afb1db891720f0de4fa01f"
     end
   end
 
