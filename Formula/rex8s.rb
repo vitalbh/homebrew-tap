@@ -1,28 +1,28 @@
 class Rex8s < Formula
   desc "Kubernetes in the Rex terminal: one cluster per pane, Flux built in"
   homepage "https://github.com/vitalbh/rex8s"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/vitalbh/rex8s/releases/download/v0.1.1/rex8s_darwin_arm64.tar.gz"
-      sha256 "c4f176894c820979921ee8decee381b12a7306c56cfe8a7174b9d5ea823a7c04"
+      url "https://github.com/vitalbh/rex8s/releases/download/v0.2.0/rex8s_darwin_arm64.tar.gz"
+      sha256 "2b3a59be335d0e351fd8e34dcca5a5f3e4461991cf2e25d89e6e672dc47505b0"
     end
     on_intel do
-      url "https://github.com/vitalbh/rex8s/releases/download/v0.1.1/rex8s_darwin_amd64.tar.gz"
-      sha256 "6500b7a34be6b7dcfc93892fce2e836c4d847c9b1f2177d23f31b8ba3595a8f5"
+      url "https://github.com/vitalbh/rex8s/releases/download/v0.2.0/rex8s_darwin_amd64.tar.gz"
+      sha256 "c408180ffd812dab52881e506aca0c3a2ef1028b139c5b4513a68f73b1b6f34d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vitalbh/rex8s/releases/download/v0.1.1/rex8s_linux_arm64.tar.gz"
-      sha256 "61ef265f3a8d48f4009e7d971ef7327258bef31775bb8696e980d143c6d947de"
+      url "https://github.com/vitalbh/rex8s/releases/download/v0.2.0/rex8s_linux_arm64.tar.gz"
+      sha256 "8d19a200b87fc33630c423e316a0dc0ead821fe80e5de1571c653ec874f68f22"
     end
     on_intel do
-      url "https://github.com/vitalbh/rex8s/releases/download/v0.1.1/rex8s_linux_amd64.tar.gz"
-      sha256 "acd4b72c1d18ee96c6660067db097b7fda7645a477afb1db891720f0de4fa01f"
+      url "https://github.com/vitalbh/rex8s/releases/download/v0.2.0/rex8s_linux_amd64.tar.gz"
+      sha256 "fdd3ecb165d10ccc99f0da42cb53e3465b774fdf1287ae5dda2bfc1ba7ac7d0c"
     end
   end
 
